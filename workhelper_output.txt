@@ -1,0 +1,59 @@
+======== System Info ========
+Datum: Tue Sep  2 07:02:05 PM UTC 2025
+Laufzeit:
+ 19:02:05 up  7:57,  4 users,  load average: 0.01, 0.09, 0.06
+
+======== CPU & Memory ========
+CPU Load:
+0.01 0.09 0.06 1/367 12369
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.9Gi       333Mi       1.5Mi       1.8Gi       1.9Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+======== Top 5 Prozesse ========
+    PID    PPID CMD                         %MEM %CPU
+   4450    1638 /home/andi/.vscode-server/c 16.0  0.7
+  12130    1638 /home/andi/.vscode-server/c 14.8  5.7
+   1638    1634 /home/andi/.vscode-server/c  3.9  0.7
+   1677    1638 /home/andi/.vscode-server/c  2.1  0.2
+   6872       1 /usr/bin/dockerd -H fd:// -  1.8  0.0
+
+======== Block Devices ========
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0   20G  0 disk 
+├─sda1   8:1    0    1M  0 part 
+└─sda2   8:2    0 19.5G  0 part /
+sr0     11:0    1  3.1G  0 rom  
+
+======== Disk Usage ========
+/dev/sda2        20G  8.0G   11G  44% /
+
+======== Netzwerk ========
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:86:ea:98 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.10.137/24 metric 100 brd 192.168.10.255 scope global dynamic ens33
+       valid_lft 1181sec preferred_lft 1181sec
+    inet6 fe80::20c:29ff:fe86:ea98/64 scope link 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether b2:cb:be:b3:27:49 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+
+======== TCP Ports ========
+tcp   LISTEN 0      4096          127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      1024              127.0.0.1:40135      0.0.0.0:*          
+tcp   LISTEN 0      4096             127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096                0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      1024              127.0.0.1:43489      0.0.0.0:*          
+tcp   LISTEN 0      4096                   [::]:22            [::]:*          
+
