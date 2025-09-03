@@ -1,0 +1,7 @@
+Bitte wählen:
+1) Datum anzeigen
+2) System-Info
+3) Speicherplatz prüfen
+4) Backup HOME
+System Informationen:
+Linux ubuntuserver 6.8.0-78-generic #78-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 11:34:18 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
